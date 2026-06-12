@@ -1,0 +1,29 @@
+{
+  "name": "eslint-practice",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:check": "eslint . --max-warnings 0",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorMukumbu/eslint-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorMukumbu/eslint-practice/issues"
+  },
+  "homepage": "https://github.com/VictorMukumbu/eslint-practice#readme",
+  "devDependencies": {
+    "eslint": "^10.4.1",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
+  }
+}
