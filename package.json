@@ -8,7 +8,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:check": "eslint . --max-warnings 0",
-    "start": "webpack"
+    "start": "webpack",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/VictorMukumbu/eslint-practice#readme",
   "devDependencies": {
     "eslint": "^10.4.1",
+    "prettier": "^3.8.4",
     "webpack": "^5.107.2",
     "webpack-cli": "^7.0.3"
   }

@@ -1,0 +1,27 @@
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Logs
+*.log
+
+# Generated files
+generated/
+
+# Package manager files (usually don't format these)
+package-lock.json
+
+# Environment files
+.env
+.env.*
+
+# config files
+*config.js
+.*

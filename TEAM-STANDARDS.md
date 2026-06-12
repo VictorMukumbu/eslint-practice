@@ -1,7 +1,7 @@
 rules: {
-      semi: ['error', 'always'],
-      quotes: ['error', 'double'],
-      'no-var': 'error',
+semi: ['error', 'always'],
+quotes: ['error', 'double'],
+'no-var': 'error',
 
       'no-unused-vars': [
         'warn',

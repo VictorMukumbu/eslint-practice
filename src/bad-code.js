@@ -1,10 +1,11 @@
-// src/bad-code.js
+// // src/bad-code.js
 
-const firstName = "Victor";
+// const firstName = "Victor";
 
-const age = 25;
+// const age = 25;
 
-if (age == "25")
-  {console.log(firstName);}
+// if (age == "25") {
+//   console.log(firstName);
+// }
 
-debugger;
+// debugger;
