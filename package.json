@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:check": "eslint . --max-warnings 0",
-    "start": "webpack",
+    "build": "webpack",
+    "start":"webpack serve",
     "format": "prettier . --write",
     "format:check": "prettier . --check"
   },
@@ -27,6 +28,7 @@
     "eslint": "^10.4.1",
     "prettier": "^3.8.4",
     "webpack": "^5.107.2",
-    "webpack-cli": "^7.0.3"
+    "webpack-cli": "^7.0.3",
+    "webpack-dev-server": "^5.2.4"
   }
 }
